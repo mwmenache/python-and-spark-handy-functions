@@ -37,6 +37,7 @@ def _logtime(start, comment):
     
     features.count()
     ctime = _logtime(x, 'Count CRNs')    
+
     """
     now = time.time()
     print("Real Time : " + comment + " took : " + str(math.trunc(now - start)) + " seconds")
