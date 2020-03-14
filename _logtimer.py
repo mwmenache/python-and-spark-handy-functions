@@ -1,3 +1,6 @@
+import math
+import time
+
 def _logtime(start, comment):
 
     """ measures and prints the elapsed time 
