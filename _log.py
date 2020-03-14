@@ -23,9 +23,9 @@ def _log(thing, logfile):
     --------
     f = "./01_Code/01_import_data.log"
     _log("Hello!", f)
+
     """
+
     f=open(logfile, "a+")
     print(thing, file=f)
     f.close()
-    # So this is a new comment made locally in this very cool
-    # code editor that I already love.
