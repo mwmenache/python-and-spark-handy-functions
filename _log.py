@@ -25,6 +25,7 @@ def _log(thing, logfile):
     _log("Hello-VS Code!", f)
 
     Yeah that rocks!
+    I'm loving it
     """
 
     f=open(logfile, "a+")
