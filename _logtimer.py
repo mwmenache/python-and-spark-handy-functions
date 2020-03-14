@@ -32,18 +32,19 @@ def _logtime(start, comment):
     --------
     start_time = time.time()
         
-    features_ini = (spark
-            .read
-            .load("/projects/loyalty/share/Big W SOW/Feature files/explanatory varibles/ALL_features.parquet")
-            .drop("BigW_active_yrs")
-            )
-    x = _logtime(start_time, 'Load Features_ini file')
+    features = spark.read.parquet("/projects/loyalty/share/Big W SOW/Feature files/explanatory varibles/ALL_features.parquet")
+    ctime = _logtime(start_time, 'Load Features_ini file')
     
-    features_ini.select('crn').count()
-    x = _logtime(x, 'Count CRNs')    
+    features.count()
+    ctime = _logtime(x, 'Count CRNs')    
     
     """
     now = time.time()
     print("Real Time : " + comment + " took : " + str(math.trunc(now - start)) + " seconds")
+    sasasas
+    asa
+    StopAsyncIterationsa
+    StopAsyncIteration
+
     
     return now
