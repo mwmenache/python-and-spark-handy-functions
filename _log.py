@@ -27,3 +27,5 @@ def _log(thing, logfile):
     f=open(logfile, "a+")
     print(thing, file=f)
     f.close()
+    # So this is a new comment made locally in this very cool
+    # code editor that I already love.
