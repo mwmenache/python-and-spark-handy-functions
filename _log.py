@@ -22,7 +22,7 @@ def _log(thing, logfile):
     Examples
     --------
     f = "./01_Code/01_import_data.log"
-    _log("Hello!", f)
+    _log("Hello-VS Code!", f)
 
     """
 
