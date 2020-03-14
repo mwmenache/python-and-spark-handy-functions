@@ -24,6 +24,7 @@ def _log(thing, logfile):
     f = "./01_Code/01_import_data.log"
     _log("Hello-VS Code!", f)
 
+    Yeah that rocks!
     """
 
     f=open(logfile, "a+")
